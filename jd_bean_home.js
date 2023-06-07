@@ -7,7 +7,7 @@ cron "25 2,14 * * *" script-path=jd_bean_home.js, tag=领京豆额外奖励
 const $ = new Env('领京豆-升级赚豆');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
-const jdCookieNode = $.isNode() ? require('./pt_key=AAJkcfUIADCL4Q5n1eVZoJ6MAkQd2HHzAU4EtAO4LBDhAvo0_Yhr0S7E-sMYpSSNY5rHWiTNC4c;pt_pin=2215535-90906478;
+const jdCookieNode = $.isNode() ? require('./jdCookie.js;
 ') : '';
 //IOS等用户直接用NobyDa的jd cookie
 const ua = require('./USER_AGENTS');
